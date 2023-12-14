@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate and Download HTML with User Data</title>
+</head>
+<body>
+    <h1>Generate and Download HTML with User Data</h1>
+
+    <!-- User input fields -->
+    <label for="userContent">Enter your content:</label>
+    <textarea id="userContent" rows="4" cols="50"></textarea>
+    <br>
+    <button id="generateButton">Generate HTML</button>
+
+    <!-- Generated HTML download link -->
+    <a id="downloadLink" style="display: none;">Download HTML</a>
+
+    <script>
+        document.getElementById("generateButton").addEventListener("click", function () {
+            // Get user inputted content
+            const userContent = document.getElementById("userContent").value;
+
+            // Create the template HTML with user content
+            const template = `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Generated HTML</title>
+                </head>
+                <body>
+                    <h1>Generated HTML</h1>
+                    <div>${userContent}</div>
+                </body>
+                </html>
+            `;
+
+            // Create a Blob containing the template HTML
+            const blob = new Blob([template], { type: "text/html" });
+
+            // Create a download link
+            const downloadLink = document.getElementById("downloadLink");
+            downloadLink.href = URL.createObjectURL(blob);
+            downloadLink.download = "generated.html";
+            downloadLink.style.display = "block"; // Show the link
+
+            // Reset user input
+            document.getElementById("userContent").value = "";
+        });
+    </script>
+</body>
+</html>

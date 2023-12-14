@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./LogInUp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LogIn</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form id="sign-up" action="#">
+                <h1>Create Account</h1>
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+                <span style="margin: 20px;">Use your email for registration</span>
+                <input type="text" placeholder="Name" required/>
+                <input type="email" placeholder="Email" id="sign-up-email" autocomplete="username" required/>
+                <input type="password" placeholder="Password" id="sign-up-pass" autocomplete="current-password" required/>
+                <button type="submit" style="margin: 20px;">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form id="sign-in" action="#">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <!-- <a href="/auth/google" class="social"><i class="fab fa-facebook-f"></i></a> -->
+                    <a href="/auth/google" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <!-- <a href="/auth/google" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" id="sign-in-email"/>
+                <input type="password" placeholder="Password" id="sign-in-pass"/>
+                <a href="#">Forgot your password?</a>
+                <button type="submit">Sign In</button>
+                <br>
+                <!-- <a href="/auth/google" class="social"><button><i class="fab fa-google-plus-g"></i> Sign In With Google</button></a> -->
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn" style="border: 2px solid white;">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp" style="border: 2px solid white;">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script type="module" src="./fireBase.js"></script>
+<script src="./LogInUp.js"></script>
+</body>
+</html>

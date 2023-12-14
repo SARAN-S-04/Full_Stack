@@ -1,0 +1,141 @@
+html,
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-style: bold;
+  background-color: #a7beae;
+}
+.header {
+  padding: 5rem;
+  text-align: center;
+
+}
+nav li a:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 30px;
+}
+li {
+  padding-left: 2.5rem;
+}
+.header h1 {
+  margin-top: 2.5rem;
+}
+#Card {
+  margin: 2.5rem 5rem 2.5rem 5rem;
+  border: 1px;
+  box-shadow: 5px 10px 18px #888888;
+  height: auto;
+  transition:0.5s;
+  padding: 20px;
+}
+
+#Card:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 10px 18px #333333;
+}
+#Card h3 {
+  padding: 2.5rem;
+}
+#Card p {
+  font-size: 16px;
+  padding-left: 2.5rem;
+}
+
+footer {
+  background: #a7beae;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0; /* Position the footer at the bottom */
+  border-top: 1px solid black;
+}
+
+.footer-top-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 160px;
+  max-width: 800px;
+  flex: 1; /* Allow the footer top to grow to fill available space */
+}
+
+.footer-top-wrapper > section {
+  width: 180px;
+}
+
+footer h2 {
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 16px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer menu li {
+  margin-bottom: 16px;
+}
+
+footer .logo {
+  width: 180px;
+  margin-bottom: 8px;
+}
+
+footer .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 180px;
+  margin-left: -490px;
+  
+}
+
+footer .social-links img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin: 8px;
+}
+footer .social-links a:hover{
+  border-radius: 50%;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 91%);
+  transition: 0.5s;
+}
+footer .social-links a[href="https://www.linkedin.com/in/teamgrandline/"]:hover {
+  background-color: #4e66ee;
+  background-image: linear-gradient(43deg, #4e66ee 61%, #ffffff 100%);
+}
+footer .social-links a[href="https://twitter.com/Team_GrandLine/"]:hover {
+  background-color: #4e66ee;
+  background-image: linear-gradient(43deg, #4e66ee 40%, #000000 100%);
+}
+.footer-bottom {
+  height: 60px;
+  margin-top: auto; /* Push the footer bottom to the bottom of the viewport */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #000000;
+  background-color: #a7beae;
+  padding: 4px;
+}
+
+.footer-bottom > small {
+  font-size: 16px;
+  margin: 0 4px;
+}

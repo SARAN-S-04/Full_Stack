@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="home/css/home.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="icon" href="images/pageLogo.jpg" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script type="text/javascript" src="./email.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script>
+		(function () {
+			emailjs.init("dxBGZVtB_TKHKHoBQ");
+		})();
+	</script>
+	<link rel="icon" href="images/Logo.png" type="image/x-icon">
+	<title>Grand Line</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light  fixed-top"  id="navvv">
+		<!-- <div class="container" style="font-size:20px;">
+			<a class="navbar-brand" href="home.html"> <div class="logo">Grand<span id="Build">line</span></div></a> -->
+			<div class="d-flex align-items-center">
+				<!-- <img src="images/Logo.png" alt="" height="45px"> -->
+				<a class="navbar-brand ml-2" href="./home.html" style="font-size:32px;"><img src="images/Logo.png" alt="" height="45px" style="border-radius: 50%;"> Grand Line</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../home/Form.html">Create Resume</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../home/faq.html">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#templates">Templates</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../LogInUp.html">Logout</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header class="page-header gradient" id="pageHeader">
+		<div class="container">
+			<div class="row">
+				<div>
+					<p style="color: #0a0000; font-weight: bold; margin-bottom: 20px;
+					margin-top: 20px;"><br><br><br>Choose a job you love, and you will never have to work a day in your life
+					</p>
+					<button type="button" class="btn btn-primary "><a class="bttn" href="../home/Form.html"
+							style="text-decoration:none; color:white;">Get Started </a></button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="templates" id="templates">
+        <div class="max-width">
+            <h2 class="title">Resume Templates</h2>
+            <div class="template-container">
+                <div class="template-card">
+                    <h3>Classic</h3>
+                    <div class="template-image-container">
+                        <img src="/home/template1.jpg" alt="Template 1"
+						style="height:400px ; width: 400px;">
+                    </div>
+                    <p>A traditional resume layout.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Modern</h3>
+                    <img src="/home/template2.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Showcase your digital marketing skills.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template3.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template4.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template5.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template6.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template7.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                <div class="template-card">
+                    <h3>Elegant</h3>
+                    <img src="/home/template8.jpg" alt="Template 1" style="width: 400px; height: 400px;">
+                    <p>Create an elegant and modern corporate resume.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    </div>
+</section>
+	<div class="container-fluid page"style="margin-top:-300px; p">
+		<div class="row">
+			<h2 class="page-title">"Grand Line: Elevating your career aspirations, one opportunity at a time."</h2>
+			<p class="page-title-para">"With our Resume builder , crafting a standout and polished CV is effortlessly achievable in just 15 minutes."
+			</p>
+		</div>
+
+		<div class="row">
+			<div class="button-container" style="margin: 0rem 0rem 2.5rem 7rem; height: 100%;border: none;">
+				<button type="button" class="btn btn-outline-dark">
+					<a href="../home/Form.html" style="text-decoration: none; color: rgb(227, 0, 0);">
+						Create Your Resume
+					</a>
+				</button>
+			</div>
+		</div>
+		
+	</div>
+	<div class="container Form" id="contUs">
+		<h1 >Contact Us<img src="../assets/telegram.svg" style="width: 40px;height: 40px;"></h1>
+		<div class="row">
+			<!-- <form class="row g-3" onsubmit="sendEmail(); reset(); return false;"> -->
+				<form class="row g-3" onsubmit="sendMail(event)"> <!-- Call sendMail() on form submission -->
+					<div class="col-md-6">
+						<label for="fbName" class="form-label">Name</label>
+						<input type="text" class="form-control" id="fbName" style="border-radius: 10px;">
+					</div>
+					<div class="col-md-6">
+						<label for="fbEmail" class="form-label">Email</label>
+						<input type="email" class="form-control" id="fbEmail" required>
+					</div>
+					<div class="col-12">
+						<label for="fbMessage" class="form-label">Feedback</label>
+						<textarea class="form-control" rows="5" id="fbMessage" required
+							placeholder="Your Feedback"></textarea> <!-- Corrected 'rows' attribute -->
+					</div>
+					<div class="col-12">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</form>
+		</div>
+	</div>
+	<footer>
+		<section class="footer-top-wrapper">
+			<section class='footer-top'>
+				<span class='social-links'>
+					<a href="https://www.instagram.com/team.grandline/"target="_blank">
+						<img src="../assets/instagram.svg" title='Instagram' alt='Instagram' />                       
+					</a>
+					<a href="https://www.linkedin.com/in/teamgrandline/" target="_blank">
+						<img src="../assets/linkedin.svg" title='Linkedin' alt='Linkedin' />
+					</a>
+					<a href="https://twitter.com/Team_GrandLine/" target="_blank">
+						<img src="../assets/twitter.svg" title='Twitter' alt='Twitter' />
+					</a>
+				</span>
+			</section>
+			<section>
+				<menu>
+					<h2>Grand Line</h2>
+					<li>
+						<a>For Students</a>
+					</li>
+					<li>
+						<a>For Lectors</a>
+					</li>
+					<li>
+						<a href="../LogInUp.html">Sign-Up/Log-In</a>
+					</li>
+				</menu>
+			</section>
+			<section>
+				<menu>
+					<h2>Company</h2>
+					<li>
+						<a>Blog</a>
+					</li>
+					<li>
+						<a>About Us</a>
+					</li>
+					</menu>
+			</section>
+		</section>
+		<section class="footer-bottom">
+				<small>© Team Grand Line. 2023 All rights reserved</small>
+		</section>
+	</footer>
+	</body>
+<script>
+	$(function () {
+		$("[rel='tooltip']").tooltip();
+	});
+
+	function sendEmail(){
+		Email.send({
+			Host : "smtp.gmail.com",
+			Username : "feedback.grandline@gmail.com",
+			Password : "Grandline0987!",
+			To : 'manojkumar.cb22@bitsathy.ac.in',
+			From : document.getElementById("EMAIL").value,
+			Subject : "Sending Feedback",
+			Body : `Name: ${document.getElementById("fbName").value} <br>
+					Email: ${document.getElementById("fbEmail").value} <br>
+					Message: ${document.getElementById("fbMEssage").value}`
+		}).then(
+		  message => alert("Message Sent Successfully")
+		);
+	}
+</script>
+
+</html>

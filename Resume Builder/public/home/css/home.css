@@ -1,0 +1,322 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: bold;
+}
+.logo {
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#build{
+    color: #ff4b2b;
+}
+.button1 {
+  width: 300x;
+  height: 100px;
+}
+#navvv{
+  background-color: white;
+}
+nav li a:hover {
+  background-color: rgba(217, 212, 212, 0.879);
+  border-radius: 20px;
+}
+.gradient {
+  background-image: url("../images/i (12).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+   /* background-transparent: 0.2; 
+  background:rgb(0,97,242);
+background:linear-gradient(135deg,rgba(0,97,242,1)0%,rgba(105,0,199,1)100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%); */
+}
+.page-header {
+  margin-top: 3.5rem;
+  font-size: 40px;
+  color: #000000;
+}
+/* .page-header p {
+  margin-left: 50rem;
+  padding: 10rem 5rem 0rem 0rem;
+} */
+.page-header button {
+  margin-left: 50rem;
+}
+li {
+  padding-left: 2.5rem;
+}
+.dev a{
+  text-decoration: none;
+  color: black;
+}
+.page.dev{
+  background: rgb(240, 240, 240);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%,0 100%);
+}
+.dev .card{
+  width:350px; 
+  height:500px; 
+  box-shadow:2px 2px 14px 3px #726c6c;
+  background-color:rgb(240, 240, 240);
+}
+.templates {
+  margin-bottom: 10rem;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  padding-bottom: 7rem;
+  background: rgb(240, 240, 240);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.templates h1 {
+  padding-top: 3.5rem;
+  text-align: center;
+}
+.templates p {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 18px;
+}
+.templates img {
+  padding: rem;
+  border: 0px;
+}
+.features h1 {
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+}
+.page {
+  margin-top: 2.5rem;
+  background: rgb(240, 240, 240);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+.page-title {
+  margin: 4rem 0rem 2.5rem 7rem;
+}
+.page-title-para {
+  margin: 0.5rem 0rem 2.5rem 7rem;
+}
+form {
+  margin-left: 10rem;
+  padding-left: 10rem;
+}
+.Form h1 {
+  margin: 5rem;
+  text-align: center;
+}
+.Form div {
+  margin-bottom: 2.5rem;
+}
+.Form button {
+  margin-top: 2rem;
+}
+
+
+body, .templates h1, .templates h2, .templates h3, .templates p, .templates ul, .templates li {
+  margin: 0;
+  padding: 0;
+}
+
+.templates {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin-top: 100px;
+}
+.templates h1{
+  margin-top: 100px;
+}
+.templates .max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.templates .menu-btn i {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.templates .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.templates .menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.templates .menu li {
+  margin-right: 20px;
+}
+
+.templates .menu a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.templates .menu a:hover {
+  color: #4CAF50;
+}
+
+.templates .templates {
+  padding: 50px 0;
+}
+
+.templates .title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.templates .template-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.templates .template-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.templates .template-card:hover {
+  transform: scale(1.05);
+}
+
+.templates .template-card img {
+  max-width: 100%;
+}
+
+.templates .template-card h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.templates .template-card p {
+  color: #666;
+  margin-top: 10px;
+}
+
+body {
+  margin: 0; /* Remove default body margin */
+  /* display: flex; */
+  /* flex-direction: column; */
+    min-height: 100%;  /*Ensure the body takes up the full height of the viewport */
+    background-color: #f0f0f0;
+}
+
+footer {
+  background: #a7beae;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 0; /* Position the footer at the bottom */
+}
+
+.footer-top-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin: 0 auto;
+  padding: 16px;
+  min-height: 160px;
+  max-width: 800px;
+  flex: 1; /* Allow the footer top to grow to fill available space */
+}
+
+.footer-top-wrapper > section {
+  width: 180px;
+}
+
+footer h2 {
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 16px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer menu li {
+  margin-bottom: 16px;
+}
+
+footer .logo {
+  width: 180px;
+  margin-bottom: 8px;
+}
+
+footer .social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 180px;
+  margin-left: -420px;
+  
+}
+
+footer .social-links img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  margin: 8px;
+}
+footer .social-links a:hover{
+  border-radius: 50%;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 91%);
+  transition: 0.5s;
+}
+footer .social-links a[href="https://www.linkedin.com/in/teamgrandline/"]:hover {
+  background-color: #4e66ee;
+  background-image: linear-gradient(43deg, #4e66ee 61%, #ffffff 100%);
+}
+footer .social-links a[href="https://twitter.com/Team_GrandLine/"]:hover {
+  background-color: #4e66ee;
+  background-image: linear-gradient(43deg, #4e66ee 40%, #000000 100%);
+}
+.footer-bottom {
+  height: 60px;
+  margin-top: auto; /* Push the footer bottom to the bottom of the viewport */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #000000;
+  background-color: #a7beae;
+  padding: 4px;
+}
+
+.footer-bottom > small {
+  font-size: 16px;
+  margin: 0 4px;
+}
